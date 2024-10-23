@@ -20,7 +20,7 @@ You need to have a USB stick that you insert into USB port on the back. The push
 
 ## dLive
 
-You need to have a USB stick that you insert into USB 'Data' port on the top left corner of the surface. Press the 'Util/Shows' button. Update the 'Master' show and then copy that show to the USB stick. Then on a computer, copy the ... directory to a repo clone then execute git add, commit and push commands.
+You need to have a USB stick that you insert into USB 'Data' port on the top left corner of the surface. Press the 'Util/Shows' button. Update the 'Master' show and then copy that show to the USB stick. The file name will be ....tar.gz Then on a computer, copy the ... directory to a repo clone then execute git add, commit and push commands.
 
 ## QSYS Core
 
