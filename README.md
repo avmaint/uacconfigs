@@ -22,6 +22,10 @@ You need to have a USB stick that you insert into USB port on the back. The push
 
 You need to have a USB stick that you insert into USB 'Data' port on the top left corner of the surface. Press the 'Util/Shows' button. Update the 'Master' show and then copy that show to the USB stick. The file name will be ....tar.gz Then on a computer, copy the ... directory to a repo clone then execute git add, commit and push commands.
 
+## Companion
+
+Go to the companion website on CUMU-G001, and then to the Import/Export option on the left side. Choose "Export Configuration" and save the file as "master_config.companionconfig". 
+
 ## QSYS Core
 
 TBD
