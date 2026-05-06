@@ -1,0 +1,80 @@
+Input, 1, 01 PP DL1 TW1
+Input, 2, 02 PP DL2 TW2
+Input, 3, 03 PP DL3 TW3
+Input, 4, 04 PP DL4 Fill
+Input, 5, 05 PP DL5 Key
+Input, 6, 06 PP DL6 Stage
+Input, 7, 07 PP DL7 Unused
+Input, 8, 08 PP DL8 Unused
+Input, 9, 09 PP SW HDMI
+Input, 10, 10 ATEM o01 ME1 Pgm
+Input, 11, 11 ATEM o02 ME2 Pgm
+Input, 12, 12 ATEM o03 ME1 CF1 Out
+Input, 13, 13 ATEM o04 ME2 CF1 Out
+Input, 14, 14 ATEM o05 Aux
+Input, 15, 15 ATEM o06 Aux
+Input, 16, 16 ATEM o07 Aux
+Input, 17, 17 ATEM o08 Aux
+Input, 18, 18 ATEM Mv1 Out
+Input, 19, 19 ATEM Mv2 Out
+Input, 20, 20 Cam1
+Input, 21, 21 Cam2
+Input, 22, 22 Cam3
+Input, 23, 23 Cam4
+Input, 24, 24 Cam5
+Input, 25, 25
+Input, 26, 26 G001 out
+Input, 27, 27 Recorder 1 out
+Input, 28, 28 Recorder 2 out
+Input, 29, 29
+Input, 30, 30
+Input, 31, 31 NDI In
+Input, 32, 32 CDWU-0009
+Input, 33, 33
+Input, 34, 34
+Input, 35, 35
+Input, 36, 36
+Input, 37, 37
+Input, 38, 38 OldATEM Pgm
+Input, 39, 39 ATEM MultiView Tmp
+Input, 40, 40 Stage Display Tmp
+Output, 1, Proj A
+Output, 2, Proj B
+Output, 3, Proj C
+Output, 4, PP SW HDMI
+Output, 5, Rear Projector (VS88)
+Output, 6, Stg Dsp TV
+Output, 7, PP DL SDI7
+Output, 8, Record 1 In
+Output, 9, Record 2 In
+Output, 10, ATEM In 01
+Output, 11, ATEM In 02
+Output, 12, ATEM In 03
+Output, 13, ATEM In 04
+Output, 14, ATEM In 05
+Output, 15, ATEM In 06
+Output, 16, ATEM In 07
+Output, 17, ATEM In 08
+Output, 18, ATEM In 09
+Output, 19, ATEM In 10
+Output, 20, ATEM In 11
+Output, 21, ATEM In 12
+Output, 22, Resi
+Output, 23, Lobby Nursery VS88
+Output, 24, PP In2
+Output, 25, Broadcast Low
+Output, 26, Broadcast High
+Output, 27, unused
+Output, 28, Web Presenter
+Output, 29, Front Desk MV
+Output, 30, Output 30
+Output, 31, Output 31
+Output, 32, Library
+Output, 33, Lobby Nursery VS88
+Output, 34, Output 34
+Output, 35, Output 35
+Output, 36, Output 36
+Output, 37, Rear Projector (VS88)
+Output, 38, Library Tmp
+Output, 39, Broadcast Low
+Output, 40, Broadcast High
