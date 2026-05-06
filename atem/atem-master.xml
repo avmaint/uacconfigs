@@ -2,8 +2,8 @@
 <Profile majorVersion="2" minorVersion="1" product="ATEM 2 M/E Constellation HD">
     <MixEffectBlocks>
         <MixEffectBlock index="0">
-            <Program input="6000"/>
-            <Preview input="1"/>
+            <Program input="3"/>
+            <Preview input="2"/>
             <NextTransition selection="Background" nextSelection="Background"/>
             <TransitionStyle style="Mix" nextStyle="Mix" previewTransition="False" transitionPosition="0">
                 <MixParameters rate="25"/>
@@ -91,7 +91,7 @@
         </MixEffectBlock>
     </MixEffectBlocks>
     <DownstreamKeys>
-        <DownstreamKey index="0" fillSource="12" keySource="11" rate="30" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
+        <DownstreamKey index="0" fillSource="12" keySource="11" rate="30" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="True" tie="False"/>
         <DownstreamKey index="1" fillSource="3010" keySource="3011" rate="30" maskEnabled="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16" preMultipliedKey="True" clip="50" gain="70" invert="False" onAir="False" tie="False"/>
     </DownstreamKeys>
     <ColorGenerators>
@@ -284,22 +284,22 @@
             </MultiView>
             <MultiView index="1" LayoutID="12" vuMeterOpacity="1" borderColour="0.59,0.59,0.59,1">
                 <Windows>
-                    <Window index="0" input="10" vuMeterEnabled="False" safeAreaEnabled="True" safeAreaType="Aspect16x9" labelEnabled="True" borderEnabled="True"/>
+                    <Window index="0" input="10" vuMeterEnabled="False" safeAreaEnabled="False" safeAreaType="" labelEnabled="False" borderEnabled="True"/>
                     <Window index="1" input="10020" vuMeterEnabled="False" safeAreaEnabled="False" safeAreaType="Aspect16x9" labelEnabled="True" borderEnabled="True"/>
-                    <Window index="2" input="8001" vuMeterEnabled="True" safeAreaEnabled="False" safeAreaType="Aspect16x9" labelEnabled="True" borderEnabled="True"/>
+                    <Window index="2" input="8001" vuMeterEnabled="True" safeAreaEnabled="False" safeAreaType="" labelEnabled="True" borderEnabled="True"/>
                     <Window index="3" input="10" vuMeterEnabled="True" safeAreaEnabled="False" safeAreaType="Aspect16x9" labelEnabled="True" borderEnabled="True"/>
                     <Window index="4" input="11" vuMeterEnabled="True" safeAreaEnabled="False" safeAreaType="Aspect16x9" labelEnabled="True" borderEnabled="True"/>
                     <Window index="5" input="12" vuMeterEnabled="True" safeAreaEnabled="False" safeAreaType="Aspect16x9" labelEnabled="True" borderEnabled="True"/>
                     <Window index="6" input="13" vuMeterEnabled="True" safeAreaEnabled="False" safeAreaType="Aspect16x9" labelEnabled="True" borderEnabled="True"/>
                     <Window index="7" input="14" vuMeterEnabled="True" safeAreaEnabled="False" safeAreaType="Aspect16x9" labelEnabled="True" borderEnabled="True"/>
-                    <Window index="8" input="1" vuMeterEnabled="False" safeAreaEnabled="False" safeAreaType="Aspect16x9" labelEnabled="True" borderEnabled="True"/>
-                    <Window index="9" input="2" vuMeterEnabled="False" safeAreaEnabled="False" safeAreaType="Aspect16x9" labelEnabled="True" borderEnabled="True"/>
-                    <Window index="10" input="3" vuMeterEnabled="False" safeAreaEnabled="False" safeAreaType="Aspect16x9" labelEnabled="True" borderEnabled="True"/>
-                    <Window index="11" input="4" vuMeterEnabled="False" safeAreaEnabled="False" safeAreaType="Aspect16x9" labelEnabled="True" borderEnabled="True"/>
-                    <Window index="12" input="0" vuMeterEnabled="True" safeAreaEnabled="False" safeAreaType="Aspect16x9" labelEnabled="True" borderEnabled="True"/>
-                    <Window index="13" input="0" vuMeterEnabled="True" safeAreaEnabled="False" safeAreaType="Aspect16x9" labelEnabled="True" borderEnabled="True"/>
-                    <Window index="14" input="0" vuMeterEnabled="False" safeAreaEnabled="False" safeAreaType="Aspect16x9" labelEnabled="True" borderEnabled="True"/>
-                    <Window index="15" input="10011" vuMeterEnabled="True" safeAreaEnabled="False" safeAreaType="Aspect16x9" labelEnabled="True" borderEnabled="True"/>
+                    <Window index="8" input="1" vuMeterEnabled="False" safeAreaEnabled="False" safeAreaType="" labelEnabled="True" borderEnabled="True"/>
+                    <Window index="9" input="2" vuMeterEnabled="False" safeAreaEnabled="False" safeAreaType="" labelEnabled="True" borderEnabled="True"/>
+                    <Window index="10" input="3" vuMeterEnabled="False" safeAreaEnabled="False" safeAreaType="" labelEnabled="True" borderEnabled="True"/>
+                    <Window index="11" input="4" vuMeterEnabled="False" safeAreaEnabled="False" safeAreaType="" labelEnabled="True" borderEnabled="True"/>
+                    <Window index="12" input="0" vuMeterEnabled="True" safeAreaEnabled="False" safeAreaType="" labelEnabled="False" borderEnabled="True"/>
+                    <Window index="13" input="0" vuMeterEnabled="True" safeAreaEnabled="False" safeAreaType="" labelEnabled="False" borderEnabled="True"/>
+                    <Window index="14" input="0" vuMeterEnabled="False" safeAreaEnabled="False" safeAreaType="" labelEnabled="False" borderEnabled="True"/>
+                    <Window index="15" input="10011" vuMeterEnabled="True" safeAreaEnabled="False" safeAreaType="" labelEnabled="True" borderEnabled="True"/>
                 </Windows>
             </MultiView>
         </MultiViews>
@@ -728,7 +728,7 @@
                 </AudioSource>
             </AudioInput>
             <AudioInput configuration="Mono" id="1301">
-                <AudioSource id="-256" inputGain="0" pan="0" faderGain="-inf" mixOption="Off" delayFrames="0">
+                <AudioSource id="-256" inputGain="0" pan="0" faderGain="10" mixOption="Off" delayFrames="0">
                     <Equalizer enabled="True" gain="0">
                         <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
                         <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="1"/>
@@ -746,7 +746,7 @@
             </AudioInput>
             <AudioInput configuration="Stereo" id="1401">
                 <Analog level="ProLine"/>
-                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="3.8" mixOption="On" delayFrames="0">
+                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="10" mixOption="On" delayFrames="0">
                     <Equalizer enabled="True" gain="0">
                         <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
                         <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="1"/>
