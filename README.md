@@ -4,11 +4,12 @@ The purpose of this repo is to be defintive authority for system configurations 
 
 # Exporting Data
 
-Every environment has its own procedure for exporting its configuration data so that it can be added to this repo.
+Every environment has its own procedure for exporting its configuration data so that it can be added to this uacconfigs repo. 
+For every file created below, copy it to the uacconfigs folder and the corresponding subfolder.
 
 ## ATEM
 
-Open the ATEM Control Software on CUMU-G001, and go to File -> Save Settings. Save the file as atem-master. Then copy that to a repo clone then execute git add, commit and push commands.
+Open the ATEM Control Software on CUMU-G001, and go to "File -> Save Settings". Save the file as atem-master. Then copy that to a repo clone then execute git add, commit and push commands.
 
 ## GrandMA3 
 
@@ -25,6 +26,12 @@ You need to have a USB stick that you insert into USB 'Data' port on the top lef
 ## Companion
 
 Go to the companion website on CUMU-G001, and then to the Import/Export option on the left side. Choose "Export Configuration" and save the file as "master_config.companionconfig". 
+
+## Videohub
+
+On CUMU-G001, open the applictation "VideoHub Control", using the gear icon at the bottom, select "save layout". Choose the filename pattern yyyy-mm-dd-vh-layout.xml
+
+Next open the application "Videohub Setup", using the gear icon at the bottom, select "save lables". Choose the filename pattern yyyy-mm-dd-vh-labels.xml
 
 ## QSYS Core
 
